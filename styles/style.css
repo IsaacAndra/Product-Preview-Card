@@ -1,0 +1,86 @@
+@import url('./reset.css');
+
+body {
+    background:#f2f0d5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.container__image img {
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    gap: 35px;
+    margin: auto; 
+    position: relative;
+}
+
+span {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.descricao__titulo {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.descricao__texto {
+    line-height: 25px;
+}
+
+.descricao__preco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preco {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.5em;
+    color: hsl(158, 36%, 37%);
+}
+
+.preco2 {
+    opacity: .5;
+    font-size: 1em;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background: hsl(158, 36%, 37%);
+    padding: 16px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: hsl(212, 21%, 14%);
+}
